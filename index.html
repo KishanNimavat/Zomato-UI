@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato clone</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <!-- Navigation menu -->
+
+    <section id="titlebg" class="">
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand text-white " href="#">Get the App</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ms-auto p-2">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Investor Relations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Add restaurant</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Sign Up</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="head-content text-white d-flex justify-content-center">
+            <h1>zomato</h1>
+        </div>
+
+        <div class="text-white d-flex justify-content-center align-items-center">
+            <div class="srchbar d-flex align-items-center">
+                <i class="fa-sharp fa-solid fa-location-dot text-danger"></i>
+                <input type="text" placeholder="Ahmedabad" class="border-0" />
+                <i class="fa fa-caret-down text-dark" aria-hidden="true"></i>
+                <i class="fa fa-search text-secondary" aria-hidden="true"></i>
+                <input type="text" placeholder="Search for restaurant, cuisine or a dish" class="border-0 w-100" />
+            </div>
+        </div>
+    </section>
+
+
+    <!-- order online section start -->
+
+    <section class="container">
+        <div class="row order_section">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/food_online.jpg" class="o-img" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Order Online</b></h5>
+                        <p class="card-text">Stay home and order to your doorstep</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="images/dining.jpg" class="o-img" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title"><b>Our Best Chef</b></h5>
+                        <p class="card-text">View the city's favourite dining venues</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- order online section end -->
+
+
+    <!-- collection section start -->
+
+    <section class="container mt-5">
+        <h2>Collections</h2>
+        <div class="c-par d-flex justify-content-between">
+            <p>
+                Explore curated lists of top restaurants, cafes, pubs, and bars in
+                Ahmedabad, based on trends
+            </p>
+            <p class="text-danger">
+                All Collections in Ahmedabad
+                <i class="fa fa-caret-right" aria-hidden="true"></i>
+            </p>
+        </div>
+
+        <div class="row text-white">
+            <div class="col-md-3 collection-img">
+                <img src="images/buffet.jpg" class="collection-imgg" alt="" />
+                <div class="collection-p-txt">
+                    <p class="mb-0">Great Buffets</p>
+                    <p>7 Places <i class="fa fa-caret-right" aria-hidden="true"></i></p>
+                </div>
+            </div>
+            <div class="col-md-3 collection-img">
+                <img src="images/cafe.jpg" class="collection-imgg" alt="" />
+                <div class="collection-p-txt">
+                    <p class="mb-0">Picturesque Cafes</p>
+                    <p>8 Places <i class="fa fa-caret-right" aria-hidden="true"></i></p>
+                </div>
+            </div>
+            <div class="col-md-3 collection-img">
+                <img src="images/luxury.jpg" class="collection-imgg" alt="" />
+                <div class="collection-p-txt">
+                    <p class="mb-0">Luxury At Its Best</p>
+                    <p>
+                        10 Places <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 collection-img">
+                <img src="images/gujrati.jpg" class="collection-imgg" alt="" />
+                <div class="collection-p-txt">
+                    <p class="mb-0">Gujarati Thali</p>
+                    <p>
+                        10 Places <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- collection section end -->
+
+    <!-- popular locality start -->
+
+    <section class="container popular-section">
+        <h2 class="mb-5">Popular localities in and around <b>Ahmedabad</b></h2>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card popular-box">
+                    <div class="card-body d-flex justify-content-between align-items-center locality">
+                        <div>
+                            <h5>Prahladnagar</h5>
+                            <p>401 places</p>
+                        </div>
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card popular-box">
+                    <div class="card-body d-flex justify-content-between align-items-center locality">
+                        <div>
+                            <h5>Nehrunagar</h5>
+                            <p>150 places</p>
+                        </div>
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card popular-box">
+                    <div class="card-body d-flex justify-content-between align-items-center locality">
+                        <div>
+                            <h5>Sattelite</h5>
+                            <p>150 places</p>
+                        </div>
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card popular-box">
+                    <div class="card-body d-flex justify-content-between align-items-center locality">
+                        <div>
+                            <h5>Ghatlodiya</h5>
+                            <p>340 places</p>
+                        </div>
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card popular-box">
+                    <div class="card-body d-flex justify-content-between align-items-center locality">
+                        <div>
+                            <h5>Maninagar</h5>
+                            <p>200 places</p>
+                        </div>
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card popular-box">
+                    <div class="card-body d-flex justify-content-between align-items-center locality">
+                        <div>
+                            <h5>Narol</h5>
+                            <p>50 places</p>
+                        </div>
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card popular-box">
+                    <div class="card-body d-flex justify-content-between align-items-center locality">
+                        <div>
+                            <h5>Ambawadi</h5>
+                            <p>201 places</p>
+                        </div>
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card popular-box">
+                    <div class="card-body d-flex justify-content-between align-items-center locality">
+                        <div>
+                            <h5>Naroda</h5>
+                            <p>249 places</p>
+                        </div>
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card popular-box">
+                    <div class="card-body d-flex justify-content-center align-items-center locality">
+                        <h5>See more</h5>
+                        &nbsp;&nbsp;
+                        <i class="fa fa-angle-down mb-2" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- popular locality end -->
+
+
+    <!-- download app start  -->
+
+    <section class="d-app">
+        <div class="d-flex justify-content-center">
+            <div class="d-pht">
+                <img src="https://b.zmtcdn.com/data/o2_assets/53e015024b1cecc95df4774f55167cbf1627207772.png"
+                    class="d-app-img" alt="" />
+            </div>
+            <div class="d-frm">
+                <h1 class="mb-3"><b>Get the Zomato app</b></h1>
+                <p>
+                    We will send you a link, open it on your phone to download<br />the
+                    app
+                </p>
+                <form>
+                    <input type="radio" name="fav_language" value="Email" />
+                    <label for="email" class="radio-email">Email</label>
+                    <input type="radio" name="fav_language" value="Phone" />
+                    <label for="phone">Phone</label><br />
+                    <input type="email" placeholder="Email" class="input-email mb-4" />
+                    <button class="text-white bg-danger">Share App Link</button>
+                </form>
+                <p class="text-secondary">Download app from</p>
+                <div class="d-logo">
+                    <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"
+                        class="g-play" alt="" />
+                    <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
+                        class="g-play" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- download app end  -->
+
+    <!-- Explore start -->
+    <section class="container explore">
+
+        <h2 class="mb-4"><b>Explore options near me</b></h2>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item mt-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button explore-box" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        <strong>Popular cuisines near me</strong>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        <strong>Popular cuisines near me</strong> It is shown by default, until the collapse
+                        plugin adds the appropriate classes that we use to style each element. These classes control the
+                        overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                        this with custom CSS or overriding our default variables. It's also worth noting that just about
+                        any
+                        HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mt-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button explore-box collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        <strong>Popular restaurant types near me</strong>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <strong>Popular restaurant types near me</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that
+                        just about any HTML can go within the <code>.accordion-body</code>, though the transition does
+                        limit
+                        overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mt-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button explore-box collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        <strong>Top Restaurant Chains</strong>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        <strong>Top Restaurant Chains</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        that
+                        just about any HTML can go within the <code>.accordion-body</code>, though the transition does
+                        limit
+                        overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item mt-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button explore-box collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        <strong>Cities We Deliver To</strong>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                    aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        <strong>Cities We Deliver To</strong> It is hidden by default, until the
+                        collapse plugin adds the appropriate classes that we use to style each element. These classes
+                        control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                        modify any of this with custom CSS or overriding our default variables. It's also worth noting
+                        thatjust about any HTML can go within the <code>.accordion-body</code>, though the transition
+                        does
+                        limit
+                        overflow.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Explore end -->
+
+
+
+    <!-- footer start -->
+
+    <footer>
+
+        <div class="ftr">
+
+            <section class="uppr">
+                <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*"
+                    alt="" width="132px" height="28px">
+                <div></div>
+                <section class="uppr-right">
+                    <div class="d-d"><img
+                            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/india-flag-design-template-186e8b084e00b5e1f777ddf3f534b763_screen.jpg?ts=1625072969"
+                            alt="" class="india-logo" />India<i class=" ic fa-solid fa-chevron-down"></i></div>
+                    <div></div>
+                    <div class="d-d"><img src="images/globe.png" alt="" class="india-logo" />English<i
+                            class=" ic fa-solid fa-chevron-down"></i></div>
+                </section>
+
+            </section>
+            <section class="footr">
+
+
+                <div class="foot-col">
+                    <h6>ABOUT ZOMATO</h6>
+                    <li>Who We Are</li>
+                    <li>Blog</li>
+                    <li>Investor With Relation</li>
+                    <li>Report Fraud</li>
+                    <li>Contact Us</li>
+                </div>
+                <div class="foot-col">
+                    <h6>ZOMAVERSE</h6>
+                    <li>Zomato</li>
+                    <li>Blinkit</li>
+                    <li>fedding india</li>
+                    <li>hyperpure</li>
+                    <li>zomaland</li>
+                </div>
+                <div class="foot-col">
+                    <h6>FOR RESTAURANT</h6>
+                    <li>Partner With Us</li>
+                    <li>Apps For You</li>
+
+                    <h6>For Enterpeise</h6>
+                    <li>Zomato For Work</li>
+                </div>
+                <div class="foot-col">
+                    <h6>LEARN MORE</h6>
+                    <li>Privacy</li>
+                    <li>Security</li>
+                    <li>Terms</li>
+                    <li>Sitemap</li>
+                </div>
+                <div class="foot-col">
+                    <h6>SOCIAL LINKS</h6>
+
+                    <li>
+
+                        <i class=" s-l fa-brands fa-linkedin" aria-hidden="true"></i>
+                        <i class=" s-l fa-brands fa-instagram" aria-hidden="true"></i>
+                        <i class=" s-l fa-brands fa-twitter" aria-hidden="true"></i>
+                        <i class=" s-l fa-brands fa-youtube"></i>
+                        <i class=" s-l fa-brands fa-facebook"></i>
+
+                    </li>
+
+                    <li><img class="f-logo"
+                            src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"
+                            alt="">
+                    </li>
+                    <li><img class="f-logo"
+                            src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
+                            alt="">
+                    </li>
+                </div>
+
+            </section>
+
+            <hr>
+
+            <div class="copyright">
+                By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and
+                Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All
+                rights reserved.
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <!-- footer end  -->
+
+
+
+
+
+</body>
+
+</html>
